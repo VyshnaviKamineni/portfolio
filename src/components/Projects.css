@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#projects {
+  background-color: #f7f9fc;
+  padding: 50px 0;
+}
+
+.projects-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Navigator Styles */
+.navigators {
+  margin-bottom: 30px;
+}
+
+.navigators button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navigators button:hover,
+.navigators button.active {
+  background-color: #0056b3;
+}
+
+/* Projects Grid Styles */
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.project {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.project-info h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.project-info p {
+  font-size: 1em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.project-buttons .btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.project-buttons .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Hide/Show Styles */
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .projects-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projects-container {
+    width: 90%;
+  }
+}

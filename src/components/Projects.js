@@ -71,6 +71,23 @@ function Projects() {
               </div>
             </div>
           </div>
+
+          <div className={`project ${currentTab === "next" ? "show" : "hide"}`}>
+            <img src="https://wallpaperaccess.com/full/5652018.jpg" alt="Portfolio" className="project-image" />
+            <div className="project-info">
+              <h3>My Portfolio</h3>
+              <p>
+                My Portfolio is a comprehensive web application designed to showcase my professional and personal projects.
+                This project leverages the power of React to provide a dynamic and interactive user experience, allowing visitors to explore my work,
+                learn about my skills, and contact me for opportunities. The portfolio includes sections for company-related projects and personal projects, each with detailed descriptions, images, and links.
+              </p>
+              <div className="project-buttons">
+                <a href="https://vyshnavikamineni.github.io/portfolio/" target="_blank" rel="noopener noreferrer" className="btn">Demo</a>
+                <a href="https://github.com/VyshnaviKamineni/portfolio" target="_blank" rel="noopener noreferrer" className="btn">Repo</a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

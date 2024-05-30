@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Projects.css';
 
 function Projects() {
-  const [currentTab, setCurrentTab] = useState(""); // Initialize currentTab to empty string
+  const [currentTab, setCurrentTab] = useState(""); 
 
   return (
     <section id="projects">
@@ -84,6 +84,22 @@ function Projects() {
               <div className="project-buttons">
                 <a href="https://vyshnavikamineni.github.io/portfolio/" target="_blank" rel="noopener noreferrer" className="btn">Demo</a>
                 <a href="https://github.com/VyshnaviKamineni/portfolio" target="_blank" rel="noopener noreferrer" className="btn">Repo</a>
+              </div>
+            </div>
+          </div>
+
+          <div className={`project ${currentTab === "next" ? "show" : "hide"}`}>
+            <img src="https://thumbs.dreamstime.com/b/notebook-text-tracking-expenses-near-office-supplies-table-documents-calculator-glasses-pen-212302934.jpg" alt="Expense Tracker" className="project-image" />
+            <div className="project-info">
+              <h3>Expense Tracker</h3>
+              <p>
+              The Expense Tracker is a user-friendly web application designed to help individuals manage their personal finances effectively.
+              This project leverages React for building a dynamic interface where users can add, view, and categorize their expenses.
+              The primary aim of this application is to provide a simple yet powerful tool to track daily expenditures and maintain financial discipline.
+              </p>
+              <div className="project-buttons">
+                <a href="https://vyshnavikamineni.github.io/expense-tracker/" target="_blank" rel="noopener noreferrer" className="btn">Demo</a>
+                <a href="https://github.com/VyshnaviKamineni/expense-tracker" target="_blank" rel="noopener noreferrer" className="btn">Repo</a>
               </div>
             </div>
           </div>

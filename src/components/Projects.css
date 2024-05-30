@@ -1,4 +1,3 @@
-/* General Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -23,7 +22,6 @@ body {
   color: #333;
 }
 
-/* Navigator Styles */
 .navigators {
   margin-bottom: 30px;
 }
@@ -44,7 +42,6 @@ body {
   background-color: #0056b3;
 }
 
-/* Projects Grid Styles */
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
@@ -105,7 +102,6 @@ body {
   background-color: #0056b3;
 }
 
-/* Hide/Show Styles */
 .hide {
   display: none;
 }
@@ -114,7 +110,6 @@ body {
   display: block;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .projects-grid {
     flex-direction: column;

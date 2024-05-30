@@ -1,20 +1,19 @@
-/* Contact Section */
 .contact-section {
-  background-color: #f9f9f9; /* Light gray background */
-  padding: 30px 10px; /* Increased padding for better spacing */
+  background-color: #f9f9f9;
+  padding: 30px 10px; 
   text-align: center;
 }
 
 .contact-container {
-  max-width: 400px; /* Adjust max-width as needed */
-  margin: 0 auto; /* Center-align the container */
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .contact-title {
-  font-size: 2.5rem; /* Increased font size for better emphasis */
+  font-size: 2.5rem;
   font-weight: bold;
-  color: #1f2937; /* Darker color for better readability */
-  margin-bottom: 30px; /* Increased margin bottom for better spacing */
+  color: #1f2937;
+  margin-bottom: 30px;
 }
 
 .contact-form {
@@ -23,7 +22,7 @@
 
 .contact-input,
 .contact-textarea {
-  width: calc(100% - 20px); /* Adjusted width for better appearance */
+  width: calc(100% - 20px);
   padding: 15px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -42,17 +41,17 @@
 }
 
 .submit-btn {
-  background-color: #4caf50; /* Green color for submit button */
+  background-color: #4caf50;
   color: #fff;
-  padding: 15px 20px; /* Increased padding for better button appearance */
+  padding: 15px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   width: 100%;
-  max-width: 200px; /* Increased max-width for better button layout */
+  max-width: 200px;
 }
 
 .submit-btn:hover {
-  background-color: #388e3c; /* Darker green color on hover */
+  background-color: #388e3c;
 }

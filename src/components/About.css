@@ -1,9 +1,7 @@
-/* About.css */
-
 #about {
-  padding: 30px 10px; /* Increased padding for better spacing */
+  padding: 30px 10px;
   background-color: whitesmoke;
-  color: #0b0909; /* White text color */
+  color: #0b0909;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -11,10 +9,10 @@
 
 .about-container {
   max-width: 800px;
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly darker shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
   text-align: center;
   transition: transform 0.3s ease;
 }
@@ -32,7 +30,7 @@
 }
 
 .about-container:hover {
-  transform: translateY(-5px); /* Lift on hover for subtle interaction */
+  transform: translateY(-5px);
 }
 
 @media (max-width: 768px) {
@@ -41,14 +39,14 @@
   }
 
   .about-container {
-    padding: 30px; /* Increased padding for smaller screens */
+    padding: 30px;
   }
 
   #about h2 {
-    font-size: 2rem; /* Reduced font size for smaller screens */
+    font-size: 2rem;
   }
 
   #about p {
-    font-size: 1rem; /* Reduced font size for smaller screens */
+    font-size: 1rem;
   }
 }
